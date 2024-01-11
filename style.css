@@ -1,0 +1,60 @@
+/* style.css */
+
+/* Navigation Bar styles */
+#navbar {
+    background-color: white; /* Set background color to white */
+    overflow: hidden;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: space-between; /* Add space between the items */
+    align-items: center; /* Center items vertically */
+}
+
+/* Header styles */
+#header {
+    padding: 14px 16px;
+}
+
+#header h1 {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Use the desired font */
+    color: black; /* Set text color to black */
+}
+
+/* Style the navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal alignment */
+}
+
+li#home {
+    margin-right: auto; /* Push "Home" to the left */
+}
+
+li a {
+    display: block;
+    color: black; /* Set text color to black */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+li a:hover {
+    background-color: #f2f2f2; /* Light gray background on hover */
+}
+
+/* Image styles */
+#image-container {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+    margin-right: 20px; /* Adjust the right margin */
+}
+
+#image-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%; /* Make the border a circle */
+}
+

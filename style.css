@@ -16,7 +16,7 @@
 
 #header h1 {
     margin: 0;
-    font-family: Arial, sans-serif; /* Use the desired font */
+    font-family: 'Salsa', cursive; /* Use the desired font */
     color: black; /* Set text color to black */
 }
 
@@ -27,7 +27,6 @@ ul {
     padding: 0;
     display: flex; /* Use flexbox for horizontal alignment */
 }
-
 li#home {
     margin-right: auto; /* Push "Home" to the left */
 }
@@ -38,7 +37,10 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+    font-size: 25px; /* Set the font size to your desired value */
+    font-family: 'Salsa', cursive;
+ }
+ 
 
 /* Change color on hover */
 li a:hover {

@@ -2,10 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1B1B1B;
+    color: white;
+    
  }
  
  nav {
-    background-color: #333;
+    background-color: #48484A;
     color: white;
     padding: 15px;
     display: flex;

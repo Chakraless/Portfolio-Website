@@ -1,80 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Page Title -->
-    <title>Projects</title>
-
-    <!-- Link to the external CSS file -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Salsa&display=swap" rel="stylesheet" />
-
-    <!-- Load jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <style>
-        /* width */
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-
-        /* Track */
-        ::-webkit-scrollbar-track {
-            background: #f1f1f1;
-        }
-
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: #888;
-        }
-
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
-
-        /* Add top padding to the body to push content below navbar */
-        body {
-            padding-top: 60px; /* Adjust based on your navbar height */
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Projects - My Website</title>
+ <link rel="stylesheet" href="../style.css">
 </head>
-
 <body>
-    <!-- Navigation Bar -->
-    <div id="navbar-container"></div>
 
-    <script>
-        $(document).ready(function () {
-            $("#navbar-container").load("index.html #navbar", function () {
-                // Optional: Add any additional script logic related to the navbar here
-            });
-        });
-    </script>
+ <nav>
+     <div class="brand">John Doe</div>
+     <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="projects.html">Projects</a></li>
+         <li><a href="contact.html">Contact</a></li>
+     </ul>
+ </nav>
 
-    <!-- Example Text Content -->
-    <div id="projects-content">
-        <h2>Welcome to the Projects Page!</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
-            Sed auctor nibh sit amet ligula varius, id cursus odio luctus. In hac
-            habitasse platea dictumst. Phasellus eu tincidunt eros. Sed eu efficitur
-            est. Nam ac ultricies dolor. Proin varius mi non urna dapibus, vel
-            tincidunt lacus fermentum.
-        </p>
-        <p>
-            Integer sit amet suscipit arcu. Nam at mauris euismod, fringilla urna
-            vel, varius lacus. Aenean non justo sit amet augue congue pulvinar.
-            Phasellus volutpat justo ut dignissim luctus.
-        </p>
-    </div>
+ <!-- Your content goes here -->
+
 </body>
-
 </html>
-

@@ -1,57 +1,41 @@
-/* style.css */
-
-/* Navigation Bar styles */
-#navbar {
-    background-color: white; /* Set background color to white */
-    overflow: hidden;
-    display: flex; /* Use flexbox for horizontal alignment */
-    justify-content: space-between; /* Add space between the items */
-    align-items: center; /* Center items vertically */
-    position: fixed; /* Make the navigation bar fixed at the top */
-    width: 100%; /* Occupy the full width of the viewport */
-    z-index: 1000; /* Set a high z-index to ensure it's on top of other elements */
-}
-
-/* Header styles */
-#header {
-    padding: 14px 16px;
-}
-
-#header h1 {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: 'Salsa', cursive; /* Use the desired font */
-    color: black; /* Set text color to black */
-}
-
-/* Style the navigation bar */
-ul {
+    padding: 0;
+ }
+ 
+ nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .brand {
+    font-size: 1.5em; /* Adjust the size as needed */
+ }
+ 
+ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Use flexbox for horizontal alignment */
-}
-li#home {
-    margin-right: auto; /* Push "Home" to the left */
-}
-
-li a {
-    display: block;
-    color: black; /* Set text color to black */
-    text-align: center;
-    padding: 14px 16px;
+    overflow: hidden;
+ }
+ 
+ li {
+    float: left;
+    margin-right: 20px;
+ }
+ 
+ a {
     text-decoration: none;
-    font-size: 25px; /* Set the font size to your desired value */
-    font-family: 'Salsa', cursive;
-}
-
-/* Change color on hover */
-li a:hover {
-    background-color: #f2f2f2; /* Light gray background on hover */
-}
-
-/* Image styles */
-#image-container {
-    text-align: center;
-    margin-top: 50px; /* Adjust as needed */
-    margin-right: 20px; /* Adjust the right margin */
-}
+    color: white;
+    transition: color 0.3s ease; /* Add a smooth transition effect */
+ }
+ 
+ a:hover {
+    color: #ff1707; /* Change the color on hover, adjust as needed */
+ }
+ 

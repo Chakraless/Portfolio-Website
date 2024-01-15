@@ -1,51 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1B1B1B;
-    color: white;
-    
- }
- 
- nav {
-    background-color: #48484A;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
- 
- .brand {
-    font-size: 1.5em; /* Adjust the size as needed */
- }
- 
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
- }
- 
- li {
-    float: left;
-    margin-right: 20px;
- }
- 
- a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s ease; /* Add a smooth transition effect */
- }
- 
- a:hover {
-     /* Change the color on hover, adjust as needed */
-    background-color: rgb(193, 193, 196);
- }
- 
- h1 {
-   text-align: center;
- }
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #1B1B1B;
+   color: white;
+}
 
- 
- 
+nav {
+   background-color: #48484A;
+   color: white;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.brand {
+   font-size: 1.5em; /* Adjust the size as needed */
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+li {
+   float: left;
+   margin-right: 20px;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+   transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+a:hover {
+   /* Change the color on hover, adjust as needed */
+   background-color: rgb(193, 193, 196);
+}
+
+h1 {
+   text-align: center;
+}
+
+/* Add the following styles for the image container */
+/* Add the following styles for the image container */
+.image-container {
+   display: flex;
+   justify-content: center;
+   align-items: center; /* Center the images vertically */
+   margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.image-container img {
+   margin-right: 10px; /* Adjust the margin between images as needed */
+   width: auto; /* Maintain the aspect ratio */
+   height: 80px; /* Set the fixed height for the images */
+}

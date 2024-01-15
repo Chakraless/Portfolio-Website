@@ -5,11 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Website</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Add the following styles for the image in the navbar */
+    .navbar-image {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-image img {
+      width: 30px; /* Adjust the width of the image */
+      height: auto; /* Maintain the aspect ratio */
+      margin-right: 10px; /* Adjust the margin as needed */
+    }
+  </style>
 </head>
 <body>
 
   <nav>
       <div class="brand">Chakraless</div>
+      <div class="navbar-image">
+        <img src="images/linkedin.png" alt="Small Image">
+        <img src="images/discord.png" alt="Small Image">
+        <img src="images/github.png" alt="Small Image">
+      </div>
       <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
